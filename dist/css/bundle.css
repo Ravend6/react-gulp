@@ -1,0 +1,50 @@
+body {
+  color: #00f;
+}
+h1 {
+  color: #00f;
+}
+.name {
+  -webkit-border-radius: 11111px;
+     -moz-border-radius: 11111px;
+          border-radius: 11111px;
+}
+a {
+  color: #00f;
+  -webkit-transition: -webkit-transform 1s;
+     -moz-transition: -moz-transform 1s;
+       -o-transition: -o-transform 1s;
+          transition: transform 1s;
+}
+@-moz-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+@-webkit-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+@-o-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
