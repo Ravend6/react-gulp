@@ -70,11 +70,10 @@ gulp.task('js', function () {
       .pipe(gulp.dest(jsFiles.dist));
 
   // Настройки без browserify
-  // gulp.src(jsSrc)
+  // gulp.src(jsFiles.src)
   //   .pipe(concat('app.js'))
-  //   .pipe(rename('app.js'))
-  //   .pipe())
-  //   .pipe(gulp.dest('./dist/js/'));
+  //   .pipe(gulpif(isMinify, uglify()))
+  //   .pipe(gulp.dest(jsFiles.dist));
 });
 
 gulp.task('html', function () {
