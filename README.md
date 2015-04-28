@@ -23,6 +23,6 @@ Edit `gulpfile.js`
 
 ### Run project
 ###### Terminal:
--- `npm i` 
--- `gulp`
+- `npm i` 
+- `gulp`
 
